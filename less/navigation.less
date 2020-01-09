@@ -1,0 +1,46 @@
+// Navigation Styles here
+nav {
+  height: 5vh;
+  background-color: @greyish;
+  color: white;
+  display: flex;
+  font-size: 1.75vh;
+  .intro{
+    width: 20%;
+    color: white;
+    text-shadow: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navi {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    #about{
+      .navi();
+    }
+    #home{
+      .navi();
+    }
+    #contact{
+      .navi();
+    }
+    #work{
+      .navi();
+    }
+  }
+  #home:hover {
+    border-bottom: 4px solid white;
+  }
+  #about:hover {
+    border-bottom: 4px solid white;
+  }
+  #contact:hover {
+    border-bottom: 4px solid white;
+  }
+  #work:hover {
+    border-bottom: 4px solid white;
+  }
+}
