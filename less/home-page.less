@@ -182,3 +182,43 @@ header{
   justify-content: center;
   align-items: center;
 }
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20vh;
+  @media (max-width:1000px) {
+    margin:10vh;
+  }
+  img{
+    height: 50vh;
+    width: 50vh;
+  }
+  .othec{
+    display: flex;
+    align-items: center;
+    @media (max-width:1000px) {
+      flex-direction: column;
+    }
+    .texting{
+      h1{
+        margin-left: 5vh;
+        @media (max-width:1000px) {
+          margin-left: 0vh;
+          margin-top: 5vh;
+        }
+      }
+      h2{
+        margin-left: 5vh;
+        @media (max-width:1000px) {
+          margin-left: 0vh;
+          margin-top: 5vh;
+        }
+      }
+      display: flex;
+      flex-direction: column;
+      @media (max-width:1000px) {
+        justify-content: center;
+      }
+    }
+  }
+}
